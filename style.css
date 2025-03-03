@@ -1,0 +1,160 @@
+/* common */
+html{
+  font-size: 14.4px;
+}
+
+body{
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+}
+
+h3{
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+p,a{
+  font-size: 1rem;
+}
+
+.wrapper{
+  max-width: 960px;
+  padding: 0 4%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section-title{
+  display: block;
+  width: fit-content;
+  font-weight: bold;
+  font-size: 2.2rem;
+  padding: 12px 0;
+  margin: 0 auto;
+  border-bottom: 1px solid #383E45;
+}
+
+
+/* header */
+
+.header{
+  height: 60px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo img{
+  width: 120px;
+  height: auto;
+  margin: 10px 0;
+}
+
+.nav-ul{
+  display: flex;
+  gap: 30px;
+}
+
+
+/* fv */
+
+.fv-img{
+  width: 100vw;
+  height: 600px;
+  object-fit: cover;
+}
+
+/* about */
+
+.about{
+  margin-top: 70px;
+}
+
+.about-content{
+  margin-top: 80px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.about-left{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.about-right{
+  text-align: left;
+}
+
+.about-text{
+  margin-top: 10px;
+}
+
+
+@media screen and (max-width: 600px){
+  .about{
+    margin-top: 70px;
+  }
+
+  .about-content{
+    margin-top: 60px;
+    display: inline-block;
+  }
+
+  .about-name{
+    margin: 10px 0;
+  }
+}
+
+/* bicycle */
+
+.bicycle{
+  margin-top: 100px;
+}
+
+.bicycle-content{
+  margin-top: 60px;
+  
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.bicycle-article{
+  width: 32%;
+}
+
+.bicycle-img{
+  width: 100%;
+}
+
+.bicycle-title{
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 600px){
+  .bicycle-content{
+    display: inline-block;
+  }
+
+  .bicycle-article{
+    width: 100%;
+  }
+
+  .bicycle-article:not(:first-child){
+    margin-top: 30px;
+  }
+}
+
+/* footer */
+
+small{
+  display: block;
+  font-size: 0.5rem;
+  margin: 110px 0 10px 0;
+  text-align: center;
+}
+
